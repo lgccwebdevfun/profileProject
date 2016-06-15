@@ -1,0 +1,30 @@
+header h1 {
+  float: left;
+}
+
+header ul {
+  float: right;
+}
+
+header li {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 2em;
+  margin-left: .25em;
+}
+main {
+  border: 1px solid black;
+  clear: both;
+}
+div.profile {
+  float: left;
+}
+.profile img {
+  width: 25%;
+}
+
+main ul {
+  clear: both;
+}
