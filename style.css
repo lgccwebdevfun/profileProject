@@ -7,24 +7,61 @@ header ul {
 }
 
 header li {
-  display: inline-block;
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
   padding: 0 2em;
   margin-left: .25em;
 }
+
+li {
+    display: inline-block;
+}
+
 main {
   border: 1px solid black;
   clear: both;
 }
-div.profile {
-  float: left;
-}
-.profile img {
-  width: 25%;
+
+.row1 img {
+    width: 30%;
+    display: block;
+    padding: 1em;
+    float: left;
 }
 
-main ul {
-  clear: both;
+ul.row2 {
+    clear: both;
+}
+
+.row2 li {
+    width: 30%;
+    margin-right:2%;
+}
+
+div.map {
+    float: left;
+    width: 40%;
+}
+
+.map img {
+    width: 30%;
+}
+
+label {
+    display: block;
+}
+
+
+
+footer {
+    clear: both;
+}
+
+footer p {
+    float: left;
+}
+
+footer ul {
+    float: right;
 }
